@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Questionnaire Web App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <audio id="restartSound" src="Sounds/Daft_Punk_-_One_More_Time (mp3cut.net) (1).mp3" preload="auto"></audio>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body> 
+    <div class="container" id="initialText">
+        <div id="fontChange">
+           <h1 class="mt-5">Customize your Daft Punk robot</h1>
+           
+        <p>What would your ideal robot be like?</p>
+        <p>Please answer the following questions so that we can provide you with the best partner possible! </p> 
+        </div>
+        
+        <form id="question-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-control" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" class="form-control" required min="18">
+            
+            <button type="submit" class="btn btn-primary mt-3">Start</button>
+        </form>
+        <div id="question-container" class="hidden mt-5">
+            <h2 id="question" class="h5"></h2>
+            <p></p>
+            <div class="choice-btn" id="choices">
+            </div>
+
+            <div class="d-flex align-items-center pt-3">
+                <div id="prev">
+                    <button class="btn btn-primary" id="prevButton">Previous</button>
+                </div>
+                <div class="ml-auto mr-sm-5">
+                    <button class="btn btn-success" id="nextButton">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="result-view" class= "hidden">
+        <div id="final-container" >
+            <div id="toptext">
+                <p>It seems we've got a result! Check it out!</p>
+            </div>
+            
+            <div class="image-container" id="finalImgCont">
+                <div class="result-image-container">
+                    <img id="backimg" src="images/imgback.jpg" class="img-fluid">
+                    <img id="resultImage" src="" alt="Result Image" class="img-fluid hidden">
+                </div>
+                <div class="map-container" id="mapCont">
+                    <a href="https://www.youtube.com/watch?v=GRFnfqAvtOg?autoplay=1">
+                        <img id="map" src="images/map.jpg" alt="map" class="img-fluid">
+                    </a> 
+                        
+                    <p>Come get your robot at Academia de Código, payment on delivery act only if you are satisfied with your partner.</p>
+                </div>
+            </div>
+        </div>
+
+    <button id="startButton" class="btn btn-primary">ONE MORE TIME!
+    </button>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

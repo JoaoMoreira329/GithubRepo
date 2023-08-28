@@ -1,0 +1,229 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/daft-punk-minimal--updated-wallpaper.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 40px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.container h1 {
+    font-size: 47px;
+     font-weight: bold;
+     color: #FF00FF;
+     letter-spacing: 5px;
+     text-transform: uppercase; 
+
+}
+
+#question-form .btn-primary {
+    background-color: #00FF00;
+    color: black;
+    border: 2px solid #333;
+}
+
+#question-form .btn-primary {
+    font-family: 'Roboto', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+#question-form .btn-primary {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
+}
+
+#question-form .btn-primary:hover {
+    background-color: greenyellow;
+    color: black;
+    transform: scale(1.05); 
+}
+
+#prevButton {
+    background-color: #00FF00;
+    color: black;
+    border: 2px solid #333; 
+    box-shadow: 0 3px 0 #666, 0 5px 0 #888; 
+    font-family: 'Roboto', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    transform: scale(1.05); 
+}
+
+#prevButton:hover {
+    background-color:greenyellow;
+    color: black;
+}
+
+#nextButton {
+    background-color: #00FF00;
+    color: black;
+    border: 2px solid #333; 
+    box-shadow: 0 3px 0 #666, 0 5px 0 #888; 
+    font-family: 'Roboto', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    transform: scale(1.05); 
+}
+
+#nextButton:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.choice-btn {
+    display: block;
+    padding: 10px 10px;
+    border: 2px solid #333;
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+}
+
+#choices .form-check-input {
+    display: none; 
+}
+
+#choices .form-check-label {
+    margin-left: 0; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#choices .form-check-label:hover {
+    background-color: #00FF00;
+    color: black;
+}
+
+#choices .form-check-label.selected{
+    background-color: #00FF00!important;
+    color: black!important;
+    border-color:white!important;
+}
+
+#result-view{
+    text-align: center;
+    margin-right: 500px;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+#final-container{
+    color: #00FF00;
+    -webkit-text-stroke: 1px black;
+}
+
+#initialText{
+    font-size: 22px;
+}
+
+#startButton {
+    margin-top: 20px;
+    background-color: #00FF00;
+    border-color: black;
+    color: black;
+}
+#startButton:hover{
+    background-color: greenyellow;
+}
+label[for="name"], label[for="age"] {
+    color: #00FF00; 
+}
+#question{
+    color: #00FF00;
+}
+#image-container{
+    background-color: #333;
+    position: relative;
+    display: inline-block;
+}
+.result-image-container {
+    text-align: center;
+}
+
+#resultImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#finalImgCont {
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center;
+    margin-top: 5%; 
+    font-size: 18px;
+}
+
+.map-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+    max-width: 35%; 
+    height: 100vh; 
+    box-sizing: border-box;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#backimg{
+    position: fixed;
+    top: 38%;
+    left: 19%;
+    z-index: -1;
+    width: 40%; 
+    height: auto; 
+}
+
+.map-container p {
+    margin-top: 10px;
+}
+
+
+#map {
+    width: 40%;
+    height: auto;
+}
+
+#toptext{
+    font-size: 200%;
+}

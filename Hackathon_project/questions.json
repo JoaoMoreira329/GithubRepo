@@ -1,0 +1,210 @@
+{
+    "questions": [
+        {
+            "question": "How do you feel right now?",
+            "choices": [
+                {
+                    "text": "Adventurous",
+                    "points": 3
+                },
+                {
+                    "text": "Romantic",
+                    "points": 2
+                },
+                {
+                    "text": "I want to conquer the world",
+                    "points": 1
+                },
+                {
+                    "text": "I am tired of life!",
+                    "points": 4
+                }
+            ]
+        },
+        {
+            "question": "Choose an animal:",
+            "choices": [
+                {
+                    "text": "Dog",
+                    "points": 3
+                },
+                {
+                    "text": "Cat",
+                    "points": 2
+                },
+                {
+                    "text": "Elephant",
+                    "points": 1
+                },
+                {
+                    "text": "Panda",
+                    "points": 4
+                }
+            ]
+        },
+        {
+            "question": "What do you find good on a partner in crime?",
+            "choices": [
+                {
+                    "text": "Funny",
+                    "points": 3
+                },
+                {
+                    "text": "Strong",
+                    "points": 1
+                },
+                {
+                    "text": "A good lover",
+                    "points": 2
+                },
+                {
+                    "text": "Depressed",
+                    "points": 4
+                }
+            ]
+        },
+        {
+            "question": "Select the quote you connect with?",
+            "choices": [
+                {
+                    "text": "If everyone was the same, it would be boring as shit",
+                    "points": 3
+                },
+                {
+                    "text": "I'm up all night to get lucky!",
+                    "points": 2
+                },
+                {
+                    "text": "Many rooms to explore, but the doors look the same.",
+                    "points": 4
+                },
+                {
+                    "text": "Harder, Better, Faster, Stronger",
+                    "points": 1
+                }
+            ] 
+
+        },
+        {
+            "question": "How do you feel about dancing? (1 to 10)",
+            "choices": [
+                {
+                    "text": "1",
+                    "points": 1
+                },
+                {
+                    "text": "2",
+                    "points": 2
+                },
+                {
+                    "text": "3",
+                    "points": 3
+                },
+                {
+                    "text": "4",
+                    "points": 4
+                },
+                {
+                    "text": "5",
+                    "points": 5
+                },
+                {
+                    "text": "6",
+                    "points": 6
+                },
+                {
+                    "text": "7",
+                    "points": 7
+                },
+                {
+                    "text": "8",
+                    "points": 8
+                },
+                {
+                    "text": "9",
+                    "points": 9
+                },
+                {
+                    "text": "10",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "question": "Now for something super cliche. Favorite color?",
+            "choices": [
+                {
+                    "text": "Red",
+                    "points": 2
+                },
+                {
+                    "text": "Purple",
+                    "points": 3
+                },
+                {
+                    "text": "Black",
+                    "points": 1
+                },
+                {
+                    "text": "Grey",
+                    "points": 4
+                }
+            ]
+        },
+        {
+            "question": "Which of these Daft Punk songs would you choose to play everytime you walk into a room?",
+            "choices": [
+                {
+                    "text": "Emotion",
+                    "points": 4
+                },
+                {
+                    "text": "One More Time",
+                    "points": 3
+                },
+                {
+                    "text": "Instant Crush",
+                    "points": 2
+                },
+                {
+                    "text": "Superheroes",
+                    "points": 1
+                }
+            ]
+        },
+        {
+            "question": "Which superpower would you NOT want? (you get the other three)",
+            "choices": [
+                {
+                    "text":  "Fly at really slow speeds",
+                    "points": 4
+                },
+                {
+                    "text": "Read minds only when people talk shit",
+                    "points": 2
+                },
+                {
+                    "text": "Uncontrollable Super Strength",
+                    "points": 3
+                },
+                {
+                    "text":  "Seduce every living being",
+                    "points": 2
+                }
+            ]
+        },
+        {
+            "question": "Do you sometimes prefer masturbation to actual sex with your partner?",
+            "choices": [
+                {
+                    "text": "Yes",
+                    "points": 2
+                },
+                {
+                    "text": "No",
+                    "points": 1
+                }
+            ]
+        }
+    ]
+}
